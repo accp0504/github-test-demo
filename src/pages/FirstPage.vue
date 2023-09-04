@@ -13,12 +13,14 @@
       <input v-model="message" />
       <input type="button" @click="reverseMessage" value="反转" />
     </p>
-
+    <p>
+      测试数据~~
+    </p>
   </div>
 </template>
 
 <script>
-import {vm, vm2} from './NewVue'
+import { vm, vm2 } from './NewVue'
 let that = ''
 
 export default {

@@ -1,0 +1,144 @@
+{
+  "assetStateMapList": [
+    {
+      "name": "申请",
+      "value": "APPLY"
+    },
+    {
+      "name": "审核通过",
+      "value": "AUDIT"
+    },
+    {
+      "name": "审核拒绝",
+      "value": "AUDIT_REFUSE"
+    },
+    {
+      "name": "企业确认通过",
+      "value": "ENTERPRISE_CONFIRM_PASS"
+    },
+    {
+      "name": "企业确认拒绝",
+      "value": "ENTERPRISE_CONFIRM_REJECT"
+    },
+    {
+      "name": "放款通过",
+      "value": "LOAN_PASS"
+    },
+    {
+      "name": "放款撤销",
+      "value": "LOAN_REVOKE"
+    },
+    {
+      "name": "还款",
+      "value": "REPAYMENT"
+    },
+    {
+      "name": "还款已结清",
+      "value": "SETTLED"
+    },
+    {
+      "name": "解质押",
+      "value": "UNPLEDGE"
+    }
+  ],
+  "loanTypeMapList": [
+    {
+      "name": "仓单融资",
+      "value": "WAREHOUSE"
+    },
+    {
+      "name": "运费融资",
+      "value": "TRANS"
+    },
+    {
+      "name": "进口融资",
+      "value": "IMPORT"
+    },
+    {
+      "name": "出口融资",
+      "value": "EXPORT"
+    }
+  ],
+  "applyTypeMapList": [
+    {
+      "name": "银行代申请",
+      "value": "BANK"
+    },
+    {
+      "name": "通过企业端申请",
+      "value": "ENT"
+    }
+  ],
+  "isUsedMapList": [
+    {
+      "name": "未占用",
+      "value": "0"
+    },
+    {
+      "name": "已占用",
+      "value": "1"
+    }
+  ],
+  "checkStatusMapList": [
+    {
+      "name": "未检查",
+      "value": "0"
+    },
+    {
+      "name": "通过",
+      "value": "1"
+    },
+    {
+      "name": "不通过",
+      "value": "2"
+    }
+  ],
+  "warehouseReceiptMapList": [
+    {
+      "name": "正常",
+      "value": "NORMAL"
+    },
+    {
+      "name": "已质押",
+      "value": "PLEDGED"
+    },
+    {
+      "name": "已解押",
+      "value": "RELEASE"
+    }
+  ],
+  "recordTypeMapList": [
+    {
+      "name": "审核",
+      "value": "AUDIT"
+    },
+    {
+      "name": "放款",
+      "value": "LOAN"
+    },
+    {
+      "name": "还款",
+      "value": "REPAYMENT"
+    }
+  ],
+  "protocolStatusMapList": [
+    {
+      "name": "生效中",
+      "value": "ACTIVE"
+    },
+    {
+      "name": "失效",
+      "value": "INVALID"
+    }
+  ],
+  "currencyMapList": [
+    {
+      "name": "人民币",
+      "value": "CNY"
+    },
+    {
+      "name": "英镑",
+      "value": "GBP"
+    }
+  ]
+}
